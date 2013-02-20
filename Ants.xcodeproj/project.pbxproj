@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8649200E1683E4AB00830B14 /* NNNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8649200B1683E4AB00830B14 /* NNNetwork.m */; };
+		8649200F1683E4AB00830B14 /* NNNeuron.m in Sources */ = {isa = PBXBuildFile; fileRef = 8649200D1683E4AB00830B14 /* NNNeuron.m */; };
 		86CA222D16780E0300913FF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CA222C16780E0300913FF2 /* UIKit.framework */; };
 		86CA222F16780E0300913FF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CA222E16780E0300913FF2 /* Foundation.framework */; };
 		86CA223116780E0300913FF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CA223016780E0300913FF2 /* CoreGraphics.framework */; };
@@ -19,17 +21,26 @@
 		86CA224616780E0300913FF2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86CA224416780E0300913FF2 /* MainStoryboard_iPhone.storyboard */; };
 		86CA224916780E0300913FF2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86CA224716780E0300913FF2 /* MainStoryboard_iPad.storyboard */; };
 		86CA224C16780E0300913FF2 /* TAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CA224B16780E0300913FF2 /* TAViewController.m */; };
+		86CA225416780E4D00913FF2 /* TAColony.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CA225316780E4D00913FF2 /* TAColony.m */; };
+		86CA226016780FF600913FF2 /* TAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CA225F16780FF600913FF2 /* TAObject.m */; };
+		86CA2263167812A600913FF2 /* TAAnt.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CA2262167812A500913FF2 /* TAAnt.m */; };
+		86CA226B1678154C00913FF2 /* JCMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CA226A1678154C00913FF2 /* JCMath.m */; };
+		86CA226E167820DB00913FF2 /* TAFood.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CA226D167820DB00913FF2 /* TAFood.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		86CA222816780E0300913FF2 /* TinyAnts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyAnts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8649200A1683E4AB00830B14 /* NNNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNetwork.h; sourceTree = "<group>"; };
+		8649200B1683E4AB00830B14 /* NNNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNetwork.m; sourceTree = "<group>"; };
+		8649200C1683E4AB00830B14 /* NNNeuron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNeuron.h; sourceTree = "<group>"; };
+		8649200D1683E4AB00830B14 /* NNNeuron.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNeuron.m; sourceTree = "<group>"; };
+		86CA222816780E0300913FF2 /* Ants.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ants.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86CA222C16780E0300913FF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		86CA222E16780E0300913FF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		86CA223016780E0300913FF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		86CA223416780E0300913FF2 /* TinyAnts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TinyAnts-Info.plist"; sourceTree = "<group>"; };
+		86CA223416780E0300913FF2 /* Ants-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ants-Info.plist"; sourceTree = "<group>"; };
 		86CA223616780E0300913FF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		86CA223816780E0300913FF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		86CA223A16780E0300913FF2 /* TinyAnts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TinyAnts-Prefix.pch"; sourceTree = "<group>"; };
+		86CA223A16780E0300913FF2 /* Ants-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ants-Prefix.pch"; sourceTree = "<group>"; };
 		86CA223B16780E0300913FF2 /* TAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAAppDelegate.h; sourceTree = "<group>"; };
 		86CA223C16780E0300913FF2 /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
 		86CA223E16780E0300913FF2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -39,6 +50,16 @@
 		86CA224816780E0300913FF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		86CA224A16780E0300913FF2 /* TAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAViewController.h; sourceTree = "<group>"; };
 		86CA224B16780E0300913FF2 /* TAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAViewController.m; sourceTree = "<group>"; };
+		86CA225216780E4D00913FF2 /* TAColony.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAColony.h; sourceTree = "<group>"; };
+		86CA225316780E4D00913FF2 /* TAColony.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAColony.m; sourceTree = "<group>"; };
+		86CA225E16780FF600913FF2 /* TAObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAObject.h; sourceTree = "<group>"; };
+		86CA225F16780FF600913FF2 /* TAObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAObject.m; sourceTree = "<group>"; };
+		86CA2261167812A500913FF2 /* TAAnt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnt.h; sourceTree = "<group>"; };
+		86CA2262167812A500913FF2 /* TAAnt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnt.m; sourceTree = "<group>"; };
+		86CA22691678154C00913FF2 /* JCMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCMath.h; sourceTree = "<group>"; };
+		86CA226A1678154C00913FF2 /* JCMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCMath.m; sourceTree = "<group>"; };
+		86CA226C167820DB00913FF2 /* TAFood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAFood.h; sourceTree = "<group>"; };
+		86CA226D167820DB00913FF2 /* TAFood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAFood.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +76,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		864920091683E3B600830B14 /* Neural Network */ = {
+			isa = PBXGroup;
+			children = (
+				8649200A1683E4AB00830B14 /* NNNetwork.h */,
+				8649200B1683E4AB00830B14 /* NNNetwork.m */,
+				8649200C1683E4AB00830B14 /* NNNeuron.h */,
+				8649200D1683E4AB00830B14 /* NNNeuron.m */,
+			);
+			name = "Neural Network";
+			sourceTree = "<group>";
+		};
 		86CA221D16780E0300913FF2 = {
 			isa = PBXGroup;
 			children = (
-				86CA223216780E0300913FF2 /* TinyAnts */,
+				86CA223216780E0300913FF2 /* Ants */,
 				86CA222B16780E0300913FF2 /* Frameworks */,
 				86CA222916780E0300913FF2 /* Products */,
 			);
@@ -67,7 +99,7 @@
 		86CA222916780E0300913FF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86CA222816780E0300913FF2 /* TinyAnts.app */,
+				86CA222816780E0300913FF2 /* Ants.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,27 +114,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		86CA223216780E0300913FF2 /* TinyAnts */ = {
+		86CA223216780E0300913FF2 /* Ants */ = {
 			isa = PBXGroup;
 			children = (
+				86CA22691678154C00913FF2 /* JCMath.h */,
+				86CA226A1678154C00913FF2 /* JCMath.m */,
 				86CA223B16780E0300913FF2 /* TAAppDelegate.h */,
 				86CA223C16780E0300913FF2 /* TAAppDelegate.m */,
-				86CA224416780E0300913FF2 /* MainStoryboard_iPhone.storyboard */,
 				86CA224716780E0300913FF2 /* MainStoryboard_iPad.storyboard */,
+				86CA224416780E0300913FF2 /* MainStoryboard_iPhone.storyboard */,
 				86CA224A16780E0300913FF2 /* TAViewController.h */,
 				86CA224B16780E0300913FF2 /* TAViewController.m */,
+				86CA225216780E4D00913FF2 /* TAColony.h */,
+				86CA225316780E4D00913FF2 /* TAColony.m */,
+				86CA225E16780FF600913FF2 /* TAObject.h */,
+				86CA225F16780FF600913FF2 /* TAObject.m */,
+				86CA2261167812A500913FF2 /* TAAnt.h */,
+				86CA2262167812A500913FF2 /* TAAnt.m */,
+				86CA226C167820DB00913FF2 /* TAFood.h */,
+				86CA226D167820DB00913FF2 /* TAFood.m */,
+				864920091683E3B600830B14 /* Neural Network */,
 				86CA223316780E0300913FF2 /* Supporting Files */,
 			);
-			path = TinyAnts;
-			sourceTree = "<group>";
+			name = Ants;
+			path = Ants;
+			sourceTree = SOURCE_ROOT;
 		};
 		86CA223316780E0300913FF2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				86CA223416780E0300913FF2 /* TinyAnts-Info.plist */,
+				86CA223416780E0300913FF2 /* Ants-Info.plist */,
 				86CA223516780E0300913FF2 /* InfoPlist.strings */,
 				86CA223816780E0300913FF2 /* main.m */,
-				86CA223A16780E0300913FF2 /* TinyAnts-Prefix.pch */,
+				86CA223A16780E0300913FF2 /* Ants-Prefix.pch */,
 				86CA223E16780E0300913FF2 /* Default.png */,
 				86CA224016780E0300913FF2 /* Default@2x.png */,
 				86CA224216780E0300913FF2 /* Default-568h@2x.png */,
@@ -113,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		86CA222716780E0300913FF2 /* TinyAnts */ = {
+		86CA222716780E0300913FF2 /* Ants */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86CA224F16780E0300913FF2 /* Build configuration list for PBXNativeTarget "TinyAnts" */;
+			buildConfigurationList = 86CA224F16780E0300913FF2 /* Build configuration list for PBXNativeTarget "Ants" */;
 			buildPhases = (
 				86CA222416780E0300913FF2 /* Sources */,
 				86CA222516780E0300913FF2 /* Frameworks */,
@@ -125,9 +169,9 @@
 			);
 			dependencies = (
 			);
-			name = TinyAnts;
-			productName = TinyAnts;
-			productReference = 86CA222816780E0300913FF2 /* TinyAnts.app */;
+			name = Ants;
+			productName = Ants;
+			productReference = 86CA222816780E0300913FF2 /* Ants.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,7 +184,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Jon Como";
 			};
-			buildConfigurationList = 86CA222216780E0300913FF2 /* Build configuration list for PBXProject "TinyAnts" */;
+			buildConfigurationList = 86CA222216780E0300913FF2 /* Build configuration list for PBXProject "Ants" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -152,7 +196,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				86CA222716780E0300913FF2 /* TinyAnts */,
+				86CA222716780E0300913FF2 /* Ants */,
 			);
 		};
 /* End PBXProject section */
@@ -181,6 +225,13 @@
 				86CA223916780E0300913FF2 /* main.m in Sources */,
 				86CA223D16780E0300913FF2 /* TAAppDelegate.m in Sources */,
 				86CA224C16780E0300913FF2 /* TAViewController.m in Sources */,
+				86CA225416780E4D00913FF2 /* TAColony.m in Sources */,
+				86CA226016780FF600913FF2 /* TAObject.m in Sources */,
+				86CA2263167812A600913FF2 /* TAAnt.m in Sources */,
+				86CA226B1678154C00913FF2 /* JCMath.m in Sources */,
+				86CA226E167820DB00913FF2 /* TAFood.m in Sources */,
+				8649200E1683E4AB00830B14 /* NNNetwork.m in Sources */,
+				8649200F1683E4AB00830B14 /* NNNeuron.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +321,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TinyAnts/TinyAnts-Prefix.pch";
-				INFOPLIST_FILE = "TinyAnts/TinyAnts-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Ants/Ants-Prefix.pch";
+				INFOPLIST_FILE = "Ants/Ants-Info.plist";
+				PRODUCT_NAME = Ants;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -281,9 +332,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TinyAnts/TinyAnts-Prefix.pch";
-				INFOPLIST_FILE = "TinyAnts/TinyAnts-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Ants/Ants-Prefix.pch";
+				INFOPLIST_FILE = "Ants/Ants-Info.plist";
+				PRODUCT_NAME = Ants;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -291,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		86CA222216780E0300913FF2 /* Build configuration list for PBXProject "TinyAnts" */ = {
+		86CA222216780E0300913FF2 /* Build configuration list for PBXProject "Ants" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86CA224D16780E0300913FF2 /* Debug */,
@@ -300,13 +351,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86CA224F16780E0300913FF2 /* Build configuration list for PBXNativeTarget "TinyAnts" */ = {
+		86CA224F16780E0300913FF2 /* Build configuration list for PBXNativeTarget "Ants" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86CA225016780E0300913FF2 /* Debug */,
 				86CA225116780E0300913FF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

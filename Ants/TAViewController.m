@@ -7,6 +7,7 @@
 //
 
 #import "TAViewController.h"
+#import "TAColony.h"
 
 @interface TAViewController ()
 
@@ -18,6 +19,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(holdDown)];
+    tap.numberOfTouchesRequired = 2;
+    
+    [self.view addGestureRecognizer:tap];
+}
+
+-(void)holdDown
+{
+    [colonyView.objects removeAllObjects];
 }
 
 - (void)didReceiveMemoryWarning
